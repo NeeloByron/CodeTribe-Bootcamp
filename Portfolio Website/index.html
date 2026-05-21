@@ -38,6 +38,14 @@
   background-color: #555;
   transform: scale(1.05);
 }
+/* Round style for my profile picture*/
+.round-img {
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border: 3px solid #555;
+}
 </style>
 
 <body>
@@ -84,8 +92,8 @@
             </td>
       
              <!--Small Photo Next to bio-->
-              <td align="right">
-              <img src="Profile picture.jpg" width="260px" height="260px"><br>
+              <td align="right" style="padding-right: 50px;">
+              <img src="Profile picture.jpg" class="round-img" width="260px" height="260px"><br>
               </td>
            </tr>
         </table>
@@ -101,7 +109,6 @@
         <div>
          <!--Address here + My socials -->
           <p><strong></strong>  Address Here</strong></p><br>
-
           <div class="circle-icons">
            <a href="https://www.linkedin.com/in/neelo-nkhuna-ba2b9b115/" class="circle" target="_blank">in</a>
            <a href="https://github.com/NeeloByron" class="circle" target="_blank">G</a>
@@ -109,7 +116,7 @@
            </a>
            </div>
           </td>
-         </div>
+          </div>
     
           <!--Additonal links-->
           <td width="13%" valign="top">
@@ -117,11 +124,11 @@
           </td>
 
           <!--My current location-->
-          <td width="24%" align="right" valign="top"><br><br>
+          <td width="24%" align="right" valign="top" style="padding-right: 50px;"><br><br>
             <div class="map-container">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669018.2049283963!2d23.614881087500006!3d-26.0980833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec12e99570831e5%3A0xc96e5c17336ac118!2sGa-Maja%2C%200745!5e0!3m2!1sen!2sza!4v1779168745000!5m2!1sen!2sza" 
                   width="310" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+             </div>
           </td>
       </tr>
     </table>
