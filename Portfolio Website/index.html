@@ -13,6 +13,29 @@
   padding: 5px;
   display: inline-block;
 }
+.circle-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.circle:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
 </style>
 
 <body>
@@ -76,16 +99,19 @@
         <div>
          <!--Address here + My socials -->
           <p><strong></strong>  Address Here</strong></p><br>
-           <a href="https://www.linkedin.com/in/neelo-nkhuna-ba2b9b115/">linkedin</a>
-           <a href="https://github.com/NeeloByron">GitHub</a>
-           <a href="https://www.instagram.com/neelo_byron/">Instagram</a>
+
+          <div class="circle-icons">
+           <a href="https://www.linkedin.com/in/neelo-nkhuna-ba2b9b115/" class="circle" target="_blank">in</a>
+           <a href="https://github.com/NeeloByron" class="circle" target="_blank">Git</a>
+           <a href="https://www.instagram.com/neelo_byron/" class="circle" target="_blank">I</a>
            </a>
+           </div>
           </td>
          </div>
     
           <!--Additonal links-->
           <td width="13%" valign="top">
-            <p>additional quick links</p>
+            <p>additional quick links</p><br>
           </td>
 
           <!--My current location-->
