@@ -1,0 +1,6 @@
+.logo {
+    border: 2px solid rgb(51, 47, 47);
+    border-radius: 12px;
+    padding: 5px;
+    display: inline-block;
+}
