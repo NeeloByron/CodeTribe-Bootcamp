@@ -73,3 +73,32 @@ body {
     height: 100%;
     border: 0;
 }
+
+/*------------Bio Section-------*/
+.bio-section {
+    padding: 2rem 5%;
+    background-color: #fff;
+}
+
+.bio-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 3rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bio-text h1 {
+    font-size: 2.2rem;
+    color: #2c3e66;
+}
+
+.bio-image img {
+    width: 260ox;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
