@@ -102,3 +102,71 @@ body {
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
 }
+
+.bio-image img:hover {
+    transform: scale(1.02);
+}
+
+/*-------Footer section------*/
+.site-footer {
+    background-color: #78a7a0;
+    padding: 2rem 5%;
+    margin-top: 2rem;
+}
+
+.site-footer hr {
+    margin-bottom: 1.5rem;
+    border: 0;
+    height: 1px;
+    background: linear-gradient(90deg, #ccc, transparent);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    align-items: start;
+}
+
+.footer-address p,
+.footer-text p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding: right;
+}
+
+.circle-icon {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: #151416;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.footer-text ul {
+    list-style: none;
+}
+
+.footer-text a:hover {
+    color: #6f42c1;
+    padding-left: 5px;
+}
+
+.footer-map iframe {
+    width: 26%;
+    height: 180%;
+    border-radius: 10px;
+    padding-right: 50px;
+}
