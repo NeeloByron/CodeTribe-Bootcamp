@@ -37,20 +37,63 @@
         </div>
     </header>
 
-    <section>
-        <h1>Contact Form</h1>
-        <form>
-            <label>Name:</label>
-            <input type="text"><br><br>
-            <label>Email:</label>
-            <input type="text"><br><br>
-            <label>Message:</label>
-            <input type="Text"><br><br>
-            <button type="submit">Submit</button>
-        </form>
-    </section><br>
-</body>
+<main>
+  <section class="contact-section">
+     <h1 class="contact-title">Contact Me</h1>
 
+     <div class="contact-grid">
+         <!--Direct contact me-->
+          <div class="contact-info">
+            <h2>Direct Contact</h2>
+              <ul class="contact-details">
+                <li>
+                  <span class="details-label">Email</span>
+                    <a href="malito:byronnkhuna@gmail.com">byronnkhuna@gmail.com</a>
+                </li>
+                 <li>
+                  <span class="details-label">Phone</span>
+                  <a href="tel:+27792985272">+27 79 298 85272</a>
+                 </li>
+                 <li>
+                  <span class="details-label">X</span>
+                  <a href="https://x.co/NeeloByrob" target="_blank"></a>
+                 </li>
+                 <li>
+                  <span class="details-label">instagram</span>
+                  <a href="https://www.instagram.com/neelo_byron" target="_blank"></a>
+                 </li>
+              </ul>
+          </div>
+
+        <!---Contact form -->
+        <div class="contact-form-wrapper">
+          <h2>Send a Message</h2>
+            <form class="contact-form" action="#" method="POST">
+                
+               <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="write your message here..." required><textarea></textarea>
+               </div>
+
+               <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+               </div>
+
+               <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+               </div>
+
+               <button type="submit" class="submit-btn">Send Message</button>
+
+            </form>
+        </div>
+
+     </div>
+  </section>
+
+</main>
  <footer class="site-footer">
      <div class="footer-grid">
          <!--Address here + My socials -->
