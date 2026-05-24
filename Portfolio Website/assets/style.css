@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: boarder-box;
+    box-sizing: border-box;
 }
 
 html {
@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f8f9fa;
+    background-color: 78a7a0;
     padding: 10px 5%;
     flex-wrap: wrap;
     position: relative;
@@ -29,8 +29,8 @@ body {
 }
 
 .logo img {
-    max-width: 80%;
-    height: auto;
+    width: 125px;
+    height: 70px;
     display: flex;
 }
 
@@ -45,8 +45,12 @@ body {
     font-weight: 600;
     color: #333;
     font-size: 1.1rem;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
     padding: 5px 0;
+}
+
+.main-navigation a:hover {
+    color: #78a7a0;
 }
 
 /*-----Responsive video-----------*/
@@ -92,10 +96,14 @@ body {
 .bio-text h1 {
     font-size: 2.2rem;
     color: #2c3e66;
+    margin-bottom: 1rem;
 }
 
+.bio-text p {
+    margin-bottom: 1rem;
+}
 .bio-image img {
-    width: 260ox;
+    width: 260px;
     height: 260px;
     object-fit: cover;
     border-radius: 50%;
@@ -110,7 +118,7 @@ body {
 /*-------Footer section------*/
 .site-footer {
     background-color: #78a7a0;
-    padding: 1.5rem solid #ccc;
+    padding: 1.5rem ;
     margin-top: 2rem;
     border-top: 1px solid #e5e5e5;
 }
@@ -128,7 +136,7 @@ body {
     font-size: 14px;
 }
 
-.circle-icon {
+.circle-icons {
     display: flex;
     gap: 10px;
     margin-top: 12px;

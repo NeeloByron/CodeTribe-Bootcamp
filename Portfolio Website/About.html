@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link  rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
-  <header >
-       <!--Logo Image Container-->
-          <div class="logo" >
-            <a href="index.html">
-              <img src="Purple.png" width="180px" height="42px" class="header-Purple">
-                 </a>  
-             </div>     
-        
+  <header class="logo-header">
+        <!--Logo Image Container-->
+           <div class="logo" >
+              <img src="assets/images/Byron-logo.png">
+                </a>  
+                 </div>     
+      
+        <!--Hambuger menu icon-->
+          <div class="hamburger" id="Hamburger">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                            </div>
+
              <!--Home, About Me & Contact Us Container-->
-              <nav>
-                <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp
-                <a href="About.html">About Me</a>&nbsp;&nbsp;&nbsp
+              <nav class="main-navigation" id="main-navigation">
+                <a href="index.html">Home</a>
+                <a href="About.html">About Me</a>
                 <a href="Contact.html">Contact Us</a>
               </nav>
-     </header><br><br>
+     </header>
 <main>
     <div>
         <h1>About Me</h1>
@@ -56,35 +63,28 @@
 </main>
 
 <footer class="site-footer">
-  <hr>
-   <table>
-     <tr>
-       <td>
-        <div >
+     <div class="footer-grid">
          <!--Address here + My socials -->
-          <p><strong></strong>  Address Here</strong></p><br>
-          <div class="circle-icons">
-           <a href="https://www.linkedin.com/in/neelo-nkhuna-ba2b9b115/" class="circle">in</a>
-           <a href="https://github.com/NeeloByron" class="circle">G</a>
-           <a href="https://www.instagram.com/neelo_byron/" class="circle">Insta</a>
-           </a>
-           </div>
-          </td>
-          </div>
+           <div class="footer-address">
+             <p>  Address Here</p>
+               <div class="circle-icons">
+                <a href="https://x.com/NeeloByron" class="circle" target="_blank">X</a>
+                <a href="https://www.facebook.com/byron.nkhuna/" class="circle" target="_blank">F</a>
+                <a href="https://www.instagram.com/neelo_byron/" class="circle" target="_blank">In</a>
+               </div>
+            </div>
     
-          <!--Additonal links-->
-          <td width="13%" valign="top">
-            <p>additional quick links</p><br>
-          </td>
-
-          <!--My current location-->
-          <td width="24%" align="right" valign="top" style="padding-right: 50px;"><br><br>
-            <div class="map-container">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669018.2049283963!2d23.614881087500006!3d-26.0980833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec12e99570831e5%3A0xc96e5c17336ac118!2sGa-Maja%2C%200745!5e0!3m2!1sen!2sza!4v1779168745000!5m2!1sen!2sza" 
-                  width="310" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     <!--Additonal text-->
+       <div class="footer-text">
+          <p>additional quick links</p><br>
              </div>
-          </td>
-      </tr>
-    </table>
+
+        <!--My current location-->
+           <div class="footer-map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669018.2049283963!2d23.614881087500006!3d-26.0980833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec12e99570831e5%3A0xc96e5c17336ac118!2sGa-Maja%2C%200745!5e0!3m2!1sen!2sza!4v1779168745000!5m2!1sen!2sza" 
+                  width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+     </div>
 </footer>
+
 </html>
